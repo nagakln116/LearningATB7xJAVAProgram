@@ -10,5 +10,7 @@ public class Lab051 {
         //Compound operators +=; -+; /=; *=;
         //Relational operators >; <; <=; >=; !; !=; == (compare two value)
         //Logical operator OR; AND; NOT;
+        //Bitwise operators; --bitwise Not, &bitwise And, << Left shift >>Right shift
+        //Operators used in OOPs; new operator - Instance of Operator
     }
 }
