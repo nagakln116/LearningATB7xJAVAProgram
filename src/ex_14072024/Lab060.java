@@ -12,5 +12,13 @@ public class Lab060 {
         int b = ++a;
         System.out.println(a);
         System.out.println(b);
+
+        //Pre-increment
+        int c = 10;
+        System.out.println(++c);
+
+        //Post-increment
+        int d = 10;
+        System.out.println(d++);
     }
 }
