@@ -20,5 +20,6 @@ public class Lab060 {
         //Post-increment
         int d = 10;
         System.out.println(d++);
+        System.out.println(d);
     }
 }
