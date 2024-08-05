@@ -2,19 +2,25 @@ package ex_27072024;
 
 public class Lab148 {
     public static void main(String[] args) {
-        int [] salary = {3,5,7,9,21,19,17,101};
-        int temp = 0;
-        for (int i = 0; i < salary.length-1; i++) {
-            for (int j = 0; j < salary.length-i-1; j++) {
-                if(salary[j]<salary[j+1]){
-                    temp = salary[j];
-                    salary[j] = salary[j+1];
-                    salary[j+1] = temp;
-                }
-            }
+        //multi-dimensional array
+        //2-D array
 
-        }
-        System.out.println("The second max of salary is: " + salary[1]);
+        int [][] array_2d = new int[3][3];
+        array_2d[0][0] = 10;
+        array_2d[0][1] = 10;
+        array_2d[0][2] = 10;
+        array_2d[1][0] = 20;
+        array_2d[1][1] = 20;
+        array_2d[1][2] = 20;
+        array_2d[2][0] = 30;
+        array_2d[2][1] = 30;
+        array_2d[2][2] = 30;
+
+        // 10 | 10 | 10
+        // 20 | 20 | 20
+        // 30 | 30 | 30
+
+        System.out.println(array_2d[1][2]);
 
 
     }
