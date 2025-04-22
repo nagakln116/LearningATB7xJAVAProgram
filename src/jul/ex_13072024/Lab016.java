@@ -8,7 +8,7 @@ public class Lab016 {
         // 10 is the value to be stored in binary in the bits allocated
         System.out.println(b);
         //int a = 250000000000; --integer number too large error will be thrown
-        long a = 250000000000l;
+        long a = 250000000000L;
         System.out.println(a);
     }
 }

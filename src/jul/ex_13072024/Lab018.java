@@ -12,7 +12,7 @@ public class Lab018 {
         char c2 = '\n'; // \n means next line
         System.out.println(c2);
 
-        char c3 = '\u1F6A';
+        char c3 = '\u1F6A'; // its a representation of unicode character omega
         System.out.println(c3);
 
     }
