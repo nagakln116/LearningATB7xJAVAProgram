@@ -10,5 +10,5 @@ public class Lab176 {
 
     // Laptop,  keyborad, mouse, camera ->  HasA
 
-    // isA or HasA -> Aggrestio
+    // isA or HasA -> Aggregation
 }

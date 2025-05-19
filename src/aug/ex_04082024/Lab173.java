@@ -6,6 +6,6 @@ public class Lab173 {
     public static void main(String[] args) {
 
         Car c1 = new Car();
-
+        aug.ex_04082024.p2.Car C2 = new aug.ex_04082024.p2.Car();
     }
 }
