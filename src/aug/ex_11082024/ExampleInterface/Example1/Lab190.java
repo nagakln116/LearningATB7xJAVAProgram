@@ -1,4 +1,4 @@
-package aug.ex_11082024.ExampleInterface;
+package aug.ex_11082024.ExampleInterface.Example1;
 
 public class Lab190 {
     //interface
