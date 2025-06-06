@@ -9,7 +9,7 @@ public class Lab199 {
         a.m2();
     }
 }
-class A {
+class A extends Throwable {
     int age = 36; //Instance variable
     static int discount = 199; // Static variable of class A
     static {
